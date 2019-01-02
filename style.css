@@ -13,8 +13,8 @@ html, body, .cover {
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	background: url('imagens/capa.png'),
-				url('imagens/ruido.png'),
+	background: url('images/capa.png'),
+				url('images/ruido.png'),
 				linear-gradient(50deg, #FF4169, #7C26F8);
 	background-attachment: fixed; /* irá deixar o plano de fundo fixo */
 	overflow-x: hidden; /* esconder a barra horizontal, caso a imagem ultrapasse a tela */
@@ -25,7 +25,7 @@ body {
 	height: 40px;
 	width: 132px;
 	display: block; /* elementos do tipo span, onde está o logo, são do tipo inline, por isso vamos coloca-lo como block */
-	background: url('imagens/spotify.svg') no-repeat;
+	background: url('images/spotify.svg') no-repeat;
 	background-size: contain; /* a imagem irá encobrir todo o conteudo, ou seja, 40x132 */
 	color: transparent; /* é aconselhavel deixar o nome 'Spotify' escrito caso a imagem não carregue, nesse caso ele ficará transparente */
 }
